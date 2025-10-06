@@ -6,15 +6,16 @@
 class Platform
 {
 public:
-    sf::RectangleShape                  Platform_Body{{100,20}};                
-    static constexpr float              Platform_Speed{0.1f};
-    static constexpr sf::Vector2<float> Platform_Spawn_Point{400,790};
+    sf::RectangleShape Platform_Body{{100,20}};                
+    static constexpr float Platform_Speed{0.1f};
+    sf::Vector2<float> Platform_Spawn_Point{400,790};
 
 
     //движение платформы в зависимости от direction
     void Move_Left_Right(const float& direction, const float& speed)
     {
         this->Platform_Body.move({direction*speed, 0.f});
+        std::cout << this->Platform_Body.getPosition().x << ' ' << this->Platform_Body.getPosition().y;
     }
 
     
@@ -52,7 +53,6 @@ public:
 int main()
 {
     sf::RenderWindow window(sf::VideoMode({800, 800}), "SFML works!");
-
     
     Platform Player{};
     Player.Platform_Body.setOrigin({50,10});
@@ -63,6 +63,11 @@ int main()
     Ball.Ball_Body.setOrigin({10,10});
     Ball.Ball_Body.setFillColor(sf::Color::Green);
 
+    float Direction{};
+
+    sf::FloatRect boundingBox = Player.Platform_Body.getGlobalBounds();
+    sf::Vector2f point {400,790};
+    
 
     
 
@@ -95,27 +100,27 @@ int main()
             Ball.Ball_Movement(-1, 0.1f);
         }
         
-        
-        
-
-
         window.clear();
         window.draw(Player.Platform_Body);
         window.draw(Ball.Ball_Body);
         window.display();
 
-        float Direction{};
 
         if (isKeyPressed(sf::Keyboard::Key::Left))
         {
             Direction = -1;
-            Player.Move_Left_Right(Direction, Player.Platform_Speed);
+            Player.Move_Left_Right(Direction, Platform::Platform_Speed);
         }
 
         if (isKeyPressed(sf::Keyboard::Key::Right))
         {
             Direction = 1;
-            Player.Move_Left_Right(Direction, Player.Platform_Speed);
+            Player.Move_Left_Right(Direction, Platform::Platform_Speed);
+        }
+
+        if (boundingBox.contains(point))
+        {
+            //std::cout << "Collision";
         }
 
         
