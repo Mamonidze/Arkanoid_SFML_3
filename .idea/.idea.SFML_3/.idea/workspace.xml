@@ -7,15 +7,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c433be85-a4ce-4371-bba0-5537336b869c" name="Changes" comment="-Attached ball to the platform&#10;- Releasing the ball">
+    <list default="true" id="c433be85-a4ce-4371-bba0-5537336b869c" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.SFML_3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SFML_3/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Arkanoid_SFML_3/Arkanoid_SFML_3.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Arkanoid_SFML_3/Arkanoid_SFML_3.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Arkanoid_SFML_3/x64/Debug/Arkanoid_SFML_3.ilk" beforeDir="false" afterPath="$PROJECT_DIR$/Arkanoid_SFML_3/x64/Debug/Arkanoid_SFML_3.ilk" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Arkanoid_SFML_3/x64/Debug/Arkanoid_SFML_3.obj" beforeDir="false" afterPath="$PROJECT_DIR$/Arkanoid_SFML_3/x64/Debug/Arkanoid_SFML_3.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Arkanoid_SFML_3/x64/Debug/vc143.idb" beforeDir="false" afterPath="$PROJECT_DIR$/Arkanoid_SFML_3/x64/Debug/vc143.idb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Arkanoid_SFML_3/x64/Debug/vc143.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Arkanoid_SFML_3/x64/Debug/vc143.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/x64/Debug/Arkanoid_SFML_3.exe" beforeDir="false" afterPath="$PROJECT_DIR$/x64/Debug/Arkanoid_SFML_3.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/x64/Debug/Arkanoid_SFML_3.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/x64/Debug/Arkanoid_SFML_3.pdb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,7 +31,7 @@
   }
 }</component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="cidr-memory-view://2" root0="FORCE_HIGHLIGHTING" />
+    <setting file="cidr-memory-view://3" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Arkanoid_SFML_3/Arkanoid_SFML_3.cpp" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
@@ -53,7 +46,7 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
-    &quot;C++ Project.SFML_3.executor&quot;: &quot;Run&quot;,
+    &quot;C++ Project.SFML_3.executor&quot;: &quot;Debug&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
@@ -130,7 +123,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1759749279405</updated>
-      <workItem from="1759749280607" duration="14111000" />
+      <workItem from="1759749280607" duration="16142000" />
     </task>
     <task id="LOCAL-00001" summary="- Platform class&#10;- ball class&#10;- platform movement">
       <option name="closed" value="true" />
@@ -148,7 +141,15 @@
       <option name="project" value="LOCAL" />
       <updated>1759761480080</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Q">
+      <option name="closed" value="true" />
+      <created>1759772054787</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1759772054787</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -161,6 +162,7 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="- Platform class&#10;- ball class&#10;- platform movement" />
     <MESSAGE value="-Attached ball to the platform&#10;- Releasing the ball" />
-    <option name="LAST_COMMIT_MESSAGE" value="-Attached ball to the platform&#10;- Releasing the ball" />
+    <MESSAGE value="Q" />
+    <option name="LAST_COMMIT_MESSAGE" value="Q" />
   </component>
 </project>

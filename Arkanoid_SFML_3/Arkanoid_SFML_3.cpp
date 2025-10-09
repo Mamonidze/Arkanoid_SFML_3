@@ -15,7 +15,6 @@ public:
     void Move_Left_Right(const float& direction, const float& speed)
     {
         this->Platform_Body.move({direction*speed, 0.f});
-        std::cout << this->Platform_Body.getPosition().x << ' ' << this->Platform_Body.getPosition().y;
     }
 
     
